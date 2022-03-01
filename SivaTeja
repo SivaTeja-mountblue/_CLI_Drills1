@@ -1,0 +1,53 @@
+siva@siva-IdeaPad-3-14ITL6:~$ mkdir project
+siva@siva-IdeaPad-3-14ITL6:~$ cd project/
+siva@siva-IdeaPad-3-14ITL6:~/project$ mkdir hello
+siva@siva-IdeaPad-3-14ITL6:~/project$ cd hello
+siva@siva-IdeaPad-3-14ITL6:~/project/hello$ mkdir five one
+siva@siva-IdeaPad-3-14ITL6:~/project/hello$ cd five
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/five$ mkdir six
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/five$ cd six
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/five/six$ touch c.txt
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/five/six$ mkdir seven
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/five/six$ pwd
+/home/siva/project/hello/five/six
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/five/six$ cd seven
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/five/six/seven$ touch error.log
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/five/six/seven$ cd ../
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/five/six$ cd ../
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/five$ cd ../
+siva@siva-IdeaPad-3-14ITL6:~/project/hello$ cd one/
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/one$ touch a.txt b.txt
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/one$ mkdir two
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/one$ cd two
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/one/two$ touch d.txt
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/one/two$ mkdir three
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/one/two$ cd three
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/one/two/three$ touch e.txt
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/one/two/three$ mkdir four
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/one/two/three$ cd four
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/one/two/three/four$ touch access.log
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/one/two/three/four$ cd ../
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/one/two/three$ cd ../
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/one/two$ cd  ../
+siva@siva-IdeaPad-3-14ITL6:~/project/hello/one$ cd ../
+siva@siva-IdeaPad-3-14ITL6:~/project/hello$ cd ../
+siva@siva-IdeaPad-3-14ITL6:~/project$ tree
+.
+└── hello
+    ├── five
+    │   └── six
+    │       ├── c.txt
+    │       └── seven
+    │           └── error.log
+    └── one
+        ├── a.txt
+        ├── b.txt
+        └── two
+            ├── d.txt
+            └── three
+                ├── e.txt
+                └── four
+                    └── access.log
+
+8 directories, 7 files
+siva@siva-IdeaPad-3-14ITL6:~/project$ 
